@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
+  import { base } from '$app/paths';
 </script>
 
 <div
@@ -22,8 +23,8 @@
 		</svg>
 	</h1>
 	<div class="flex absolute left-12 bottom-8 gap-16 text-[28px]">
-		<a href="/" class="link cursor-pointer">/</a>
-		<a href="/tools" class="link cursor-pointer">Tools</a>
+		<a href="{base}/" class="link cursor-pointer">/</a>
+		<a href="{base}/tools" class="link cursor-pointer">Tools</a>
 	</div>
 </div>
 
